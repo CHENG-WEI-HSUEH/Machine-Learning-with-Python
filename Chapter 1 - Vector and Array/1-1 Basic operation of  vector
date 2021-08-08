@@ -4,6 +4,10 @@ Created on Sun Aug  8 21:04:36 2021
 @author: HSUEH CHENG WEI
 
 Chapter 1 Vector,Matrix, and Array
+1. Declare array
+2. Compress spare array
+3. Select certain elements
+4. Reverse array
 """
 
 #import vector/array library
@@ -47,3 +51,7 @@ print(f'Select 2nd row:\n {vector_row2[1]}\n')
 
 #Select one element
 print(f'Select element[1,1]:\n {vector_row2[1,1]}\n')
+
+
+#Reverse a 1-D row vector
+print(f'1-D row array:\n {vector_row1[::-1]}\n')
